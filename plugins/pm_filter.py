@@ -1,4 +1,3 @@
-
 import asyncio
 import re
 import ast
@@ -1337,14 +1336,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🔸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url="https://telegram.me/TG_Movie_Req_Grp")
+                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
+                    InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about') 
-                  ]]       
+                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+                ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1467,21 +1466,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.BUTTON_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "paid":
-        buttons = [[
-            InlineKeyboardButton('♛┈⛧┈┈•𝐁𝐀𝐂𝐊•┈┈⛧┈♛', callback_data='about')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-            text=script.PAID_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -1877,7 +1861,7 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            m=await message.reply_text("🔍")
+            m=await message.reply_sticker("CAACAgIAAxkBAAIg7GXlQdfgBeLDKqEl-FvjuMXrnBwGAAJ1AQACEBptInCKj7c5KByPHgQ")
             search = search.lower()
             find = search.split(" ")
             search = ""
@@ -1906,7 +1890,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
-        m=await message.reply_text("🔎")
+        m=await message.reply_sticker("CAACAgIAAxkBAAIg7GXlQdfgBeLDKqEl-FvjuMXrnBwGAAJ1AQACEBptInCKj7c5KByPHgQ")
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     pre = 'filep' if settings['file_secure'] else 'file'
