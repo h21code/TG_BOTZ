@@ -21,6 +21,7 @@
 [![Size](https://img.shields.io/github/repo-size/Kushalhk/TG_BOTZ?style=flat-square&color=orange)](https://github.com/Kushalhk/TG_BOTZ)   
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Kushalhk/TG_BOTZ)   
 [![Contributors](https://img.shields.io/github/contributors/Kushalhk/TG_BOTZ?style=flat-square&color=pink)](https://github.com/Kushalhk/TG_BOTZ/graphs/contributors)
+
 [![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/Kushalhk/TG_BOTZ/blob/stream-feature/LICENSE)
 
 <b>All this codes are created by our developers 
@@ -32,8 +33,6 @@
 <b><a href='https://t.me/parshucr'>parshucr 👨‍💻</a>.</b>
 
 <b><a href='https://t.me/anonymous7370'>N33VARPV2 👨‍💻</a>.</b>
-
-<b><a href='https://github.com/Mujahith123'>MUJAHITH 👨‍💻</a>.</b>
 
 <b><a href='https://github.com/Joelkb'>JOEL 👨‍💻</a>.</b>
 
@@ -90,10 +89,11 @@ we are nothing without your support please support us to bring more features in 
 
 * [![𝐑𝐄𝐏𝐎 𝐎𝐖𝐍𝐄𝐑](https://img.shields.io/static/v1?label=𝐂𝐎𝐍𝐓𝐀𝐂𝐓&message=𝐌𝐄&color=critical)](https://t.me/KUSHALHK)
 
-* * [![𝐃𝐄𝐌𝐎 𝐁𝐎𝐓](https://img.shields.io/static/v1?label=𝐃𝐄𝐌𝐎&message=𝐁𝐎𝐓&color=critical)](https://t.me/TG_autofilter_bot)
+* * [![𝐃𝐄𝐌𝐎 𝐁𝐎𝐓](https://img.shields.io/static/v1?label=𝐃𝐄𝐌𝐎&message=𝐁𝐎𝐓&color=critical)](https://t.me/HK_Stream_Bot)
   
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
+• /start - 𝑇𝑜 𝑠𝑡𝑎𝑟𝑡 𝑡ℎ𝑒 𝑏𝑜𝑡
 • /invite - 𝑡𝑜 𝑔𝑒𝑡 𝑡ℎ𝑒 𝑖𝑛𝑣𝑖𝑡𝑒 𝑙𝑖𝑛𝑘 𝑜𝑓 𝑎𝑛𝑦 𝑐ℎ𝑎𝑡 𝑤ℎ𝑖𝑐ℎ 𝑡ℎ𝑒 𝑏𝑜𝑡 𝑖𝑠 𝑎𝑑𝑚𝑖𝑛.
 • /logs - 𝑡𝑜 𝑔𝑒𝑡 𝑡ℎ𝑒 𝑟𝑒𝑠𝑐𝑒𝑛𝑡 𝑒𝑟𝑟𝑜𝑟𝑠
 • /stats - 𝑡𝑜 𝑔𝑒𝑡 𝑠𝑡𝑎𝑡𝑢𝑠 𝑜𝑓 𝑓𝑖𝑙𝑒𝑠 𝑖𝑛 𝑑𝑏.
@@ -111,7 +111,6 @@ we are nothing without your support please support us to bring more features in 
 • /id - 𝑔𝑒𝑡 𝑡𝑔 𝑖𝑑𝑠.
 • /imdb - 𝑓𝑒𝑡𝑐ℎ 𝑖𝑛𝑓𝑜 𝑓𝑟𝑜𝑚 𝑖𝑚𝑑𝑏.
 • /search - 𝑇𝑜 𝑠𝑒𝑎𝑟𝑐ℎ 𝑓𝑟𝑜𝑚 𝑣𝑎𝑟𝑖𝑜𝑢𝑠 𝑠𝑜𝑢𝑟𝑐𝑒𝑠
-• /start - 𝑇𝑜 𝑠𝑡𝑎𝑟𝑡 𝑡ℎ𝑒 𝑏𝑜𝑡
 • /setskip - 𝑇𝑜 𝑠𝑘𝑖𝑝 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑚𝑒𝑠𝑠𝑎𝑔𝑒𝑠 𝑤ℎ𝑒𝑛 𝑖𝑛𝑑𝑒𝑥𝑖𝑛𝑔 𝑓𝑖𝑙𝑒𝑠
 • /users - 𝑡𝑜 𝑔𝑒𝑡 𝑙𝑖𝑠𝑡 𝑜𝑓 𝑚𝑦 𝑢𝑠𝑒𝑟𝑠 𝑎𝑛𝑑 𝑖𝑑𝑠.
 • /chats - 𝑡𝑜 𝑔𝑒𝑡 𝑙𝑖𝑠𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑚𝑦 𝑐ℎ𝑎𝑡𝑠 𝑎𝑛𝑑 𝑖𝑑𝑠 
@@ -145,6 +144,9 @@ we are nothing without your support please support us to bring more features in 
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
+* `FQDN` : Refer info.py
+* `BLIND_ADDRES` : 0.0.0.0
+* `INTERNAL_PING` : 1200
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
