@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://graph.org/file/8e0fca27184354f479593.jpg" alt="TG_BOTZ Logo">
+  <img src="https://graph.org/file/e3c317c4a7ca7682cc6f7.jpg" alt="TG_BOTZ Logo">
 </p>
 <h1 align="center">
-  TG_UPDATES1
+  𝐇𝐊-𝐏𝐑𝐎𝐃𝐔𝐂𝐓𝐈𝐎𝐍𝐒
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗧𝗛𝗜𝗦+𝗜𝗦+𝗧𝗚_𝗕𝗢𝗧𝗭!;𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗞𝗨𝗦𝗛𝗔𝗟+𝗛𝗞™;𝗔+𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟𝗟+𝗧𝗚+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p>
